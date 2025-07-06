@@ -23,6 +23,7 @@ This project simulates real-time dynamic pricing for urban parking lots using Pa
 
 ## 📊 Architecture Overview
 
+
 ```mermaid
 graph TD
     A[Raw CSV (dataset.csv)] --> B[Data Cleaning (Pandas)]
@@ -32,4 +33,5 @@ graph TD
     D --> F[Price Output Stream]
     E --> F
     F --> G[Real-Time Bokeh Visualization (Per Lot Tab)]
+
 
