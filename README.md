@@ -16,7 +16,6 @@ This project simulates real-time dynamic pricing for urban parking lots using Pa
 | **Pathway** | Real-time data stream processing      |
 | **Pandas**  | Initial data cleaning and formatting  |
 | **Bokeh**   | Interactive plotting & real-time charts |
-| **Panel**   | Dashboard and tab layout (multi-lot)  |
 | **Google Colab** | Cloud execution environment     |
 
 ---
@@ -32,6 +31,60 @@ graph TD
     C --> E[Model 2: Demand-Based Pricing]
     D --> F[Price Output Stream]
     E --> F
-    F --> G[Real-Time Bokeh Visualization - Per Lot Tab]
+    F --> G[Real-Time Bokeh Visualization]
+
+
+```
+
+---
+
+## ⚙️ Models Used
+
+### 🔹 Model 1: Baseline Linear Pricing
+
+A simple linear model to serve as a pricing baseline.
+
+**Formula:**
+
+price = BASE_PRICE + α × (occupancy / capacity) 
+
+**Behavior:**  
+Linearly increases price with occupancy.
+
+---
+
+### 🔹 Model 2: Demand-Based Pricing
+
+A more advanced pricing model using multiple real-time demand indicators.
+
+**Demand Factors:**
+
+- Occupancy  
+- Queue Length  
+- Traffic Level  
+- Special Day (binary)  
+- Vehicle Type (weight-based)
+
+**Price Formula:**
+
+price = BASE + (normalized_demand × λ × BASE)
+
+**Weights Used:**
+
+- Occupancy: `0.4`  
+- Queue: `0.3`  
+- Traffic: `0.15`  
+- Special Day: `0.1`  
+- Vehicle Type: `0.05`
+
+---
+
+## 📉 Visualizations
+
+Real-time interactive **Bokeh** plots display predicted prices for each parking lot.
+
+- Each lot is shown in a **dedicated Panel tab**
+- Plots **update automatically** as new data arrives via Pathway streaming
+- Uses **tumbling daily windows** (`1-day interval`) for aggregation
 
 
