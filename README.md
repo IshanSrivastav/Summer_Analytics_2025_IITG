@@ -45,7 +45,7 @@ graph TD
     D --> F[Model 2: Demand-Based Pricing]
     E --> G[Price Output]
     F --> G
-    G --> H[Real-Time Visualization (Bokeh + Panel Tabs)]
+    G --> H[Real-Time Visualization Bokeh ]
 
 
 ```
