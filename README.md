@@ -13,7 +13,7 @@ An Event Held By Consulting &amp; Analytics Club, IIT Guwahati
 
 ## 📂 Dataset
 
-[Download dataset.csv]([https://github.com/ishansrivastav/Dynamic-Pricing-Parking/raw/main/dataset.csv](https://github.com/IshanSrivastav/Summer_Analytics_2025_IITG/blob/main/Assesment/dataset.csv))
+[Download dataset.csv](https://github.com/IshanSrivastav/Summer_Analytics_2025_IITG/blob/main/Assesment/dataset.csv)
 
 
 
