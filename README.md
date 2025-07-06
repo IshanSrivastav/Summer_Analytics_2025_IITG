@@ -6,7 +6,7 @@ An Event Held By Consulting &amp; Analytics Club, IIT Guwahati
 
 ## 🚀 Run This Notebook in Colab
 
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ishansrivastav/Dynamic-Pricing-Parking/blob/main/Dynamic_Pricing_Final_With_Model1.ipynb](https://colab.research.google.com/drive/1wwqOqyjPwI-5nxLJCq1nkzNRJvhtVgY8?usp=sharing))
+[![Open In Colab]([[https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ishansrivastav/Dynamic-Pricing-Parking/blob/main/Dynamic_Pricing_Final_With_Model1.ipynb](https://colab.research.google.com/drive/1wwqOqyjPwI-5nxLJCq1nkzNRJvhtVgY8?usp=sharing)](https://colab.research.google.com/drive/1wwqOqyjPwI-5nxLJCq1nkzNRJvhtVgY8?usp=sharing))
 
 ## Github File
 
