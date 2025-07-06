@@ -4,6 +4,21 @@ An Event Held By Consulting &amp; Analytics Club, IIT Guwahati
 
 # 🚗 Dynamic Pricing for Urban Parking Spaces (Real-Time with Pathway)
 
+## 🚀 Run This Notebook in Colab
+
+[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ishansrivastav/Dynamic-Pricing-Parking/blob/main/Dynamic_Pricing_Final_With_Model1.ipynb](https://colab.research.google.com/drive/1wwqOqyjPwI-5nxLJCq1nkzNRJvhtVgY8?usp=sharing))
+
+## Github File
+
+[Code File](https://github.com/IshanSrivastav/Summer_Analytics_2025_IITG/blob/main/Assesment/FinalAssesment.ipynb)
+
+
+## 📂 Dataset
+
+[Download dataset.csv]([https://github.com/ishansrivastav/Dynamic-Pricing-Parking/raw/main/dataset.csv](https://github.com/IshanSrivastav/Summer_Analytics_2025_IITG/blob/main/Assesment/dataset.csv))
+
+
+
 This project simulates real-time dynamic pricing for urban parking lots using Pathway's stream processing engine. The system ingests streaming data, computes demand-based features, and outputs pricing predictions in real time with interactive Bokeh visualizations.
 
 ---
